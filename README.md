@@ -1,39 +1,63 @@
-# awx-installation
+# AWX-Ansible-Tower
+![Alt text](img/awx.png?raw=true "Title")
 
-### Prerequisites
+## What is AWX? 
 
-#### SERVER
+AWX is an open source web application that provides a user interface, REST API, and task engine for Ansible. It's the open source version of the Ansible Tower. The AWX allows you to manage Ansible playbooks, inventories, and schedule jobs to run using the web interface.
 
-OS = CentOS7
+For More Info : https://www.ansible.com/products/awx-project/faq
 
-Size = 4GB / 2 CPUs
+## Prerequisites
 
-Storage = 80GB
+- Linux Server
+- OS = CentOS7
+- Size = 2 CPUs / 4 GB RAM
+- Storage = ~50GB
 
-### Installation
+## Installation
 
-#### 1. Install git
+1. Clone this repository
+```
+git clone https://github.com/azaa1/awx-ansible-tower.git
+```
 
-yum install git -y
+2. Change directory 
+```
+cd  awx-ansible-tower
+```
 
-#### 2. Clone the repository
-
-git clone https://github.com/azaa1/awx-installation.git
-
-#### 3. Change Directory to Repository
-
-cd  awx-installation
-
-#### 4. Run installation
-
+3. Run installation script
+```
 bash install.sh
+```
 
-#### 5. Access Tower
+4. Access AWX
 
 Open your browser, enter the public IP of the SERVER
 
-#### 6. Log In
+## Log In
+Note : For security change the default login once you access AWX.  
 
+
+The default login is as follows
+```
 user: admin
 
 password: password
+```
+
+## Link to Official Documentations
+
+# 
+
+- What is AWX? 
+
+https://www.ansible.com/products/awx-project/faq
+
+- 5 Things You Can Do With AWX 
+
+https://www.ansible.com/blog/5-things-you-can-do-with-awx#:~:text=AWX%20is%20the%20open%20source,the%20already%20powerful%20automation%20engine.
+
+- AWX vs Red Hat Ansible Tower 
+
+https://www.redhat.com/en/resources/awx-and-ansible-tower-datasheet

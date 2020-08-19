@@ -8,4 +8,4 @@ systemctl enable docker
 yum -y install docker-compose
 pip uninstall docker-py docker-compose -y
 pip install docker-compose==1.9
-cd ~/awx-installation/awx/installer/ && ansible-playbook -i inventory install.yml -vv
+cd ~/awx-ansible-tower/awx/installer/ && ansible-playbook -i inventory install.yml -vv
