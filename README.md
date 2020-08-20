@@ -5,7 +5,7 @@
 
 AWX is an open source web application that provides a user interface, REST API, and task engine for Ansible. It's the open source version of the Ansible Tower. The AWX allows you to manage Ansible playbooks, inventories, and schedule jobs to run using the web interface.
 
-For More Info : https://www.ansible.com/products/awx-project/faq
+[For More Info](https://www.ansible.com/products/awx-project/faq)
 
 ## Prerequisites
 
@@ -50,14 +50,8 @@ password: password
 
 # 
 
-- What is AWX? 
+- [What is AWX?](https://www.ansible.com/products/awx-project/faq)
 
-https://www.ansible.com/products/awx-project/faq
+- [5 Things You Can Do With AWX](https://www.ansible.com/blog/5-things-you-can-do-with-awx#:~:text=AWX%20is%20the%20open%20source,the%20already%20powerful%20automation%20engine)
 
-- 5 Things You Can Do With AWX 
-
-https://www.ansible.com/blog/5-things-you-can-do-with-awx#:~:text=AWX%20is%20the%20open%20source,the%20already%20powerful%20automation%20engine.
-
-- AWX vs Red Hat Ansible Tower 
-
-https://www.redhat.com/en/resources/awx-and-ansible-tower-datasheet
+- [AWX vs Red Hat Ansible Tower](https://www.redhat.com/en/resources/awx-and-ansible-tower-datasheet)
